@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  activity_id: 1
+  time: 2013-02-27 19:12:59
+  duration: 1
+  notes: MyString
+
+two:
+  activity_id: 1
+  time: 2013-02-27 19:12:59
+  duration: 1
+  notes: MyString

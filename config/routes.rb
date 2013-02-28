@@ -1,4 +1,7 @@
 DeterminedMountainGoat::Application.routes.draw do
+  resources :activities do
+    resources :sessions
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
