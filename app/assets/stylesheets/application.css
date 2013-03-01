@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  background-color: #09090F;
+  color: #09090f;
+}
+
+#content {
+  width: 70%;
+  background-color: #DDDDDE;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  padding: 18px;
+}
