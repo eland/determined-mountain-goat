@@ -11,6 +11,11 @@ end
 
 module DeterminedMountainGoat
   class Application < Rails::Application
+    #Replace fixtures with factory_girl factories
+    config.generators do |g|
+        g.fixture_replacement :factory_girl
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
