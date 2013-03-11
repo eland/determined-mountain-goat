@@ -10,6 +10,10 @@ gem 'sqlite3'
 gem 'haml-rails'
 gem 'factory_girl_rails'
 
+group :test do
+  gem 'shoulda-matchers'
+end
+
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
 end
